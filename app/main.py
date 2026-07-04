@@ -60,7 +60,7 @@ def root():
 #         media_type="text/event-stream"
 #     )
 
-if __name__ == "__main__":
-    # Seenode asignará un puerto automáticamente en la variable de entorno PORT
-    port = int(os.getenv("PORT", 8000))
-    uvicorn.run("main:app", host="0.0.0.0", port=port)
+# if __name__ == "__main__":
+#     # Seenode asignará un puerto automáticamente en la variable de entorno PORT
+#     port = int(os.getenv("PORT", 8000))
+#     uvicorn.run("main:app", host="0.0.0.0", port=port)
